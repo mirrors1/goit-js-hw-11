@@ -1,1 +1,1 @@
-console.log('render-functions.js');
+console.log('render-functions');
