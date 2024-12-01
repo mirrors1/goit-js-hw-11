@@ -19,7 +19,7 @@ function searchPicture(event) {
   container.innerHTML = '<span class="loader"></span>';
 
   searchParams.set('q', searchMsg);
-  const BASE_URL = `https://pixabay.com/api/2?${searchParams}`;
+  const BASE_URL = `https://pixabay.com/api/?${searchParams}`;
 
   fetchData(BASE_URL)
     .then(data => {
